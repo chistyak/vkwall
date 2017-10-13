@@ -1,0 +1,5 @@
+Application saves wall posts of specified users so those can be viewed even when were deleted
+configure:
+    src\main\resources\hibernate.cfg.xml - set username and password
+    db.sql - database, specify users
+    src\main\java\util\Constants.java.PROXY - set proxy
